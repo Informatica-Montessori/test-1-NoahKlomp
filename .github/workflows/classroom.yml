@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Python test
         setup-command: sudo -H pip install pytest
-        command: pytest ./.tests/test.py
+        command: pytest
         timeout: 10
         max-score: 100
     - name: Autograding Reporter
